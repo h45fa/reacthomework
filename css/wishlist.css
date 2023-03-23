@@ -1,0 +1,76 @@
+.wishlist__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1200px) {
+  .wishlist__title {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wishlist__title {
+    margin-bottom: 20px;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #EEEEEE;
+  padding: 20px;
+}
+
+.item + .item {
+  margin-top: 20px;
+}
+
+.item__content {
+  display: flex;
+  align-items: center;
+}
+
+.item__body {
+  display: flex;
+  align-items: flex-start;
+  color: #000;
+}
+
+.item__image {
+  display: block;
+  margin: 0 20px;
+  max-width: 75px;
+}
+
+.item__title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.item__price {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.item__buttons {
+  text-align: right;
+}
+
+.item__delete {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.item__delete svg {
+  width: 25px;
+  height: 25px;
+}
+
+.item__btn {
+  padding: 10px 20px;
+  font-size: 14px;
+}
